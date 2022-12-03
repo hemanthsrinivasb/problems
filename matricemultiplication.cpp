@@ -21,6 +21,7 @@ for(int i=0;i<r2;i++){
 }
 if(c1!=r2){
   cout<<"multiplication is not possible"<<endl;
+
 }
 int C[r1][c2];
 for(int i=0;i<r1;i++){
@@ -34,6 +35,7 @@ for(int i=0;i<r1;i++){
   }
 
 }
+
 for(int i=0;i<r1;i++){
   for(int j=0;j<c2;j++){
     cout<<C[i][j]<<" ";
