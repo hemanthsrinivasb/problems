@@ -1,24 +1,27 @@
 #include<iostream>
 using namespace std;
-// MORE COMPLEXITY
-int bruteapproach(int a,int b){
-  int ans=0;
 
-  for(int i=a;i<=b;i++){
-    ans+=i;
-  }
-  return ans;
-}
-// LESS COMPLEXITY
-int lessapproach(int a,int b){
-  int n=(b-a+1);
-  int x=a;
-  int ans=(n*(2*a+(n-1)*1))/2;
-  return ans;
-}
+
 int main(){
+  int arr[]={2,3,1,3,2,4,1};
+  // int totalsum=0;
+  // int prtsum=0;
+  int add=0;
+  for(int i=0;i<7;i++){
+    for(int j=i+1;j<7;j++){
+      if(arr[i]==arr[j]){
 
-cout<<bruteapproach(2,6)<<endl;
-cout<<lessapproach(2,6)<<endl;
+        arr[i]= arr[j] =-1;
+      }
+    }
+  }
+  int unique=0;
+  for(int i=0;i<7;i++){
+    if(arr[i]>0){
+      unique=arr[i];
+    }
+  }
+cout<<unique<<endl;
+
   return 0;
 }
