@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-// // int a;
+// int a;
 // int c=18;
 // float n=3;
 // int *ptr=&c;
@@ -12,7 +12,7 @@ int main(){
 // cout<<*ptr<<endl;
 // c=50;
 // // *ptr=50;(This can also be written and  same value )
-
+//
 //
 // cout<<*ptr<<endl;;
 // cout<<ptr;
