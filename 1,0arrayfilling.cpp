@@ -13,7 +13,7 @@ using namespace std;
 // you would get
 // leftmostone=1(which is it 1st index) and
 // maxonesrow=0;
-// now use antoher loop to check ones in the next rows after 0th row
+// now use antoher loop to check ones in the next rows  0th row
 // if you find 1 at 0th index at any other row then that would be the maxonesrow
 int leftmostone(vector<vector<int>>&v){
   int leftmostone=-1
